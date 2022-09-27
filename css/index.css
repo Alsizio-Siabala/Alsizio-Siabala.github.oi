@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    overflow: hidden;
+}
+
+.background {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(../imagem/fundo.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabecalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabecalho-link a {
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.cabecalho-link a:hover {
+    color: #44a1ef;
+    transition: 0.3s all;
+    font-size: 15px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: #44a1ef solid 1px;
+    color: #44a1ef;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.logo i {
+    color: #fff;
+    width: 20px;
+
+}
+
+button {
+    color: #44a1ef;
+    background: transparent;
+    border: solid 1px #44a1ef;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 12px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #44a1ef;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.5s;
+    width: 160px;
+
+}
+
+
+.container-text {
+    padding: 150px 0px 0px 130px;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 10px;
+}
+
+.text h1 {
+    color: #fff;
+    margin-top: 10px;
+    display: inline-flex;
+
+}
+
+.text img {
+    margin-bottom: -70px;
+    margin-top: -200px;
+}
+
+.text span {
+    color: #44a1ef;
+}
+
+.text p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.redes-socias a {
+    color: #44a1ef;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 25px;
+}
+
+.redes-socias a:hover {
+    width: 160px;
+}
+
+.fundo {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(../imagem/racker.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+}
+
+.sia {
+    display: inline-block;
+    border: #44a1ef solid 2px;
+    border-radius: 70%;
+}
+
+.textos {
+
+    color: #fff;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 15px;
+    text-indent: 40px;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.titu {
+    color: #44a1ef;
+    margin-left: 70px;
+    display: inline;
+    margin-top: 10px;
+}
+
+
+.proj-music img {
+    width: 700px;
+    margin-left: 40px;
+}
+
+.h2-titlu {
+    color: #fff;
+    margin-left: 70px;
+}
